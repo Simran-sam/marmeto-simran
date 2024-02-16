@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+<div class="marmeto">
+    <div class="left">
+        <img src="images/image1.png">
+        <div class="thumbnail">
+            <img src="images/image2.png">
+            <img src="images/image3.png">
+            <img src="images/image4.png">
+            <img src="images/image6.png">
+        </div>
+    </div>
+    <div class="right">
+        <div class="vendor">
+            <p style="color:#b9bbbf;">marmeto</p>
+            <h2 style="color: black;">Embrace Sideboard</h2>
+
+        </div>
+        <div class="price">
+            
+            <span>
+                <p style="color:#b9bbbf;">price</p>
+                <h1>$12999.00</h1>
+                <h4 style="color:#7f7f7f;"><s>$19999.00</s></h4>
+            </span>
+            <p style="color:#ff7f7f;"> 35% off</p>
+            <hr>
+        </div>
+        <form>
+        <div id="colors">
+            <p style="color:#b9bbbf;"> Choose a color</p>
+            <label class="custom-radio">
+				<input type="radio" name="radio" checked>
+				<span class="checkmark"></span>
+			</label>
+			
+			<label class="custom-radio">
+				<input type="radio" name="radio" class="yellow">
+				<span class="checkmark"></span>
+			</label>
+			
+			<label class="custom-radio">
+				<input type="radio" name="radio">
+				<span class="checkmark"></span>
+			</label>
+        </div>
+        <div class="size">
+            <p style="color:#b9bbbf;"> Choose a size</p>
+            <div class="radioBtn">
+             <div class="rBtn">
+                <input type="radio" name="button" value="small">
+                 <label for="button">Small</label>
+            </div>
+            <div class="rBtn">
+                <input type="radio" name="button" value="small">
+                <label for="button">Medium</label>
+            </div>
+            <div class="rBtn">
+                <input type="radio" name="button" value="small">
+                <label for="button">Large</label>
+            </div>
+            <div class="rBtn">
+                <input type="radio" name="button" value="small">
+                <label for="button">Extra Large</label>
+            </div>
+            <div class="rBtn">
+                <input type="radio" name="button" value="small">
+                <label for="button">XXL</label>
+            </div>
+            </div>
+        </div>
+            <!-- <div class="quantity">
+    <button id="decrease" style="border:none">-</button>
+    <input style="border:none"  type="number" id="quantity" value="1" min="1">
+    <button id="increase" style="border:none">+</button>
+  </div> -->
+    <div class="quantCart">
+        <div class="quantity">
+            <button onclick="decreaseQuantity()">-</button>
+            <input type="text" id="quantity" value="1" readonly>
+            <button onclick="increaseQuantity()">+</button>
+        </div>
+        <div>
+            <button class="cartButton"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</button>
+        </div>
+    </div>
+</form>
+<span>
+<p class="added">Embrace Sideboard with color yellow and Size Small added to cart</p>
+</span>
+        <div class="desc">
+            <p style="color: #a3a3a3;">The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability</p>
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
